@@ -1,20 +1,20 @@
-#Fortune 1000 Data Analytics | Modern Data Engineering GCP Project
-##Introduction
+Fortune 1000 Data Analytics | Modern Data Engineering GCP Project
+Introduction
 
 This project implements a modern cloud-native data ingestion and analytics pipeline on Google Cloud Platform (GCP) for Fortune 1000 company data.
 It demonstrates how structured business datasets can be ingested, transformed, validated, and loaded into a scalable analytics warehouse using Dataflow (JavaScript UDF) and BigQuery.
 
 The pipeline follows enterprise-grade data engineering practices used by finance, analytics, and BI teams to process large business datasets.
 
-##Architecture
+Architecture
 
 CSV → Google Cloud Storage → Dataflow (JavaScript UDF) → BigQuery → Analytics
 
 The pipeline ingests raw CSV files from Cloud Storage, applies transformations using a Dataflow JavaScript UDF, and loads the cleaned, schema-validated data into BigQuery for querying and reporting.
 
-##Technology Used
+Technology Used
 
-###Programming & Scripting
+Programming & Scripting
 
 JavaScript (Dataflow UDF)
 
@@ -22,7 +22,7 @@ JSON (BigQuery schema)
 
 SQL (BigQuery analytics)
 
-###Google Cloud Platform
+Google Cloud Platform
 
 Google Cloud Storage
 
@@ -30,13 +30,13 @@ Google Cloud Dataflow
 
 BigQuery
 
-###Analytics
+Analytics
 
 BigQuery SQL
 
 BI tools (Looker / dashboards)
 
-##Dataset Used
+Dataset Used
 
 The dataset represents Fortune 1000 companies, including:
 
@@ -51,7 +51,7 @@ Workforce and governance indicators
 The original dataset was loaded through the pipeline and stored in BigQuery.
 For safety and compliance, only a small synthetic sample is included in this repository.
 
-##Data Model
+Data Model
 
 The destination table is defined using a JSON-based BigQuery schema that enforces:
 
@@ -63,7 +63,7 @@ Consistent field definitions for analytics
 
 This ensures the warehouse is reliable and analytics-ready.
 
-##Pipeline Scripts
+Pipeline Scripts
 
 Dataflow Transformation (JavaScript UDF)
 dataflow/fortune1000_batch_ingest.js
@@ -74,7 +74,7 @@ schema/fortune1000_schema.json
 Sample Dataset (synthetic)
 data/sample_fortune1000.csv
 
-##Pipeline Execution
+Pipeline Execution
 
 The repository includes real execution evidence:
 
@@ -84,7 +84,7 @@ A BigQuery table populated with Fortune 1000 records
 
 These confirm the pipeline was executed end-to-end on Google Cloud.
 
-##About
+About
 
 This project demonstrates how to build a production-style cloud data ingestion pipeline using Google Cloud Dataflow and BigQuery, following best practices for:
 
