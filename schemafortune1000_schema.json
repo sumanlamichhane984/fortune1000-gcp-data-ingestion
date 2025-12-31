@@ -1,0 +1,37 @@
+{
+  "BigQuery Schema": [
+    { "name": "Rank", "type": "INTEGER", "mode": "NULLABLE" },
+    { "name": "Company", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "Ticker", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "Sector", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "Industry", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "Profitable", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "Founder_is_CEO", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "FemaleCEO", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "Growth_in_Jobs", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "Change_in_Rank", "type": "FLOAT", "mode": "NULLABLE" },
+    { "name": "Gained_in_Rank", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "Dropped_in_Rank", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "Newcomer_to_the_Fortune500", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "Global500", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "Worlds_Most_Admired_Companies", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "Best_Companies_to_Work_For", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "Number_of_employees", "type": "INTEGER", "mode": "NULLABLE" },
+    { "name": "MarketCap_March28_M", "type": "FLOAT", "mode": "NULLABLE" },
+    { "name": "Revenues_M", "type": "FLOAT", "mode": "NULLABLE" },
+    { "name": "RevenuePercentChange", "type": "FLOAT", "mode": "NULLABLE" },
+    { "name": "Profits_M", "type": "FLOAT", "mode": "NULLABLE" },
+    { "name": "ProfitsPercentChange", "type": "FLOAT", "mode": "NULLABLE" },
+    { "name": "Assets_M", "type": "FLOAT", "mode": "NULLABLE" },
+    { "name": "CEO", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "Country", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "HeadquartersCity", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "HeadquartersState", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "Website", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "CompanyType", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "Footnote", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "MarketCap_Updated_M", "type": "FLOAT", "mode": "NULLABLE" },
+    { "name": "Updated", "type": "DATE", "mode": "NULLABLE" }
+  ]
+}
+
