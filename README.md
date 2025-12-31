@@ -1,8 +1,7 @@
 Fortune 1000 Data Analytics | Modern Data Engineering GCP Project
 Introduction
 
-This project implements a modern cloud-native data ingestion and analytics pipeline on Google Cloud Platform (GCP) for Fortune 1000 company data.
-It demonstrates how structured business datasets can be ingested, transformed, validated, and loaded into a scalable analytics warehouse using Dataflow (JavaScript UDF) and BigQuery.
+This project implements a modern cloud-native data ingestion and analytics pipeline on Google Cloud Platform (GCP) for Fortune 1000 company data. It demonstrates how structured business datasets can be ingested, transformed, validated, and loaded into a scalable analytics warehouse using Dataflow (JavaScript UDF) and BigQuery.
 
 The pipeline follows enterprise-grade data engineering practices used by finance, analytics, and BI teams to process large business datasets.
 
@@ -13,7 +12,6 @@ CSV → Google Cloud Storage → Dataflow (JavaScript UDF) → BigQuery → Anal
 The pipeline ingests raw CSV files from Cloud Storage, applies transformations using a Dataflow JavaScript UDF, and loads the cleaned, schema-validated data into BigQuery for querying and reporting.
 
 Technology Used
-
 Programming & Scripting
 
 JavaScript (Dataflow UDF)
@@ -71,7 +69,7 @@ dataflow/fortune1000_batch_ingest.js
 BigQuery Table Schema
 schema/fortune1000_schema.json
 
-Sample Dataset (synthetic)
+Sample Dataset (Synthetic)
 data/sample_fortune1000.csv
 
 Pipeline Execution
