@@ -1,8 +1,3 @@
--- ================================================
--- Fortune 1000 (2024) - BigQuery Analytics Queries
--- Dataset: fortune1000_2024
--- ================================================
- 
 -- 1. Top 10 Companies by Revenue
 SELECT
   Rank,
